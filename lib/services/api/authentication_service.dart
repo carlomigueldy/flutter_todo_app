@@ -9,7 +9,7 @@ import 'package:stacked/stacked.dart';
 import 'package:device_info/device_info.dart';
 import 'package:dio/dio.dart';
 
-import '../../app/helpers.dart';
+import '../../app/http_client.dart';
 import '../../models/user.dart';
 import '../../app/routes.gr.dart';
 import '../../app/locator.dart';
