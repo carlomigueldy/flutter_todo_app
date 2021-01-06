@@ -31,7 +31,7 @@ class MainView extends StatelessWidget {
     @required MainViewModel model,
   }) {
     // final screenSize = MediaQuery.of(context).size;
-    // return HomeView();
+    return HomeView();
 
     if (model.menuType == MenuType.LOGIN) {
       return LoginView();

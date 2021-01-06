@@ -50,6 +50,9 @@ class ThemeService with ReactiveServiceMixin {
         textTheme: ButtonTextTheme.primary,
         shape: shape,
       ),
+      floatingActionButtonTheme: FloatingActionButtonThemeData(
+        backgroundColor: getColor(type: ColorType.primary),
+      ),
     );
   }
 
@@ -68,6 +71,9 @@ class ThemeService with ReactiveServiceMixin {
         buttonColor: getColor(type: ColorType.primary),
         textTheme: ButtonTextTheme.primary,
         shape: shape,
+      ),
+      floatingActionButtonTheme: FloatingActionButtonThemeData(
+        backgroundColor: getColor(type: ColorType.primary),
       ),
     );
   }

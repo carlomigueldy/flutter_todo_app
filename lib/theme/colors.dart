@@ -14,12 +14,12 @@ enum ColorType {
 ///
 /// @param [ColorType] type
 /// @return [Colors]
-getColor({ColorType type}) {
+Color getColor({ColorType type}) {
   switch (type) {
     case ColorType.primary:
       return Colors.indigo;
     case ColorType.secondary:
-      return Colors.grey[800];
+      return Colors.indigoAccent;
     case ColorType.accent:
       return Colors.indigo[100];
     case ColorType.error:
